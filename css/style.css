@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+}
+.column {
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+}
+.text {
+
+}
+.overlay {
+
+}
