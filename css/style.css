@@ -3,32 +3,44 @@
     padding: 0;
     box-sizing: border-box;
   }
-.body {
-    background-color: lightgray;
-}
+
 .container {
+    background-color: lightgray;
+    position: absolute;
+    height: 300vh;
+}
+.block {
     width: 100vw;
     height: 100vh;
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    padding: 5px;
-    margin-bottom: 2px;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 .city1 {
     background-image: url("https://cdn.pixabay.com/photo/2019/03/28/18/46/rome-4087802_1280.jpg");
 }
+.city2 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Bostonstraight.jpg/1600px-Bostonstraight.jpg");
+}
+.city3 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Paris_vue_d%27ensemble_tour_Eiffel.jpg/1599px-Paris_vue_d%27ensemble_tour_Eiffel.jpg");
+}
 .overlay {
-
+    position: absolute;
+    top: 0;
+    right:0;
+    bottom: 0;
+    left:0;
+    background-color: rgba(255,255,255, 0.1);
 
 }
 .text {
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%;-50%);
+    display: inline-block;
+}
+
+h1 {
+    font-size: 50px;
 }
