@@ -5,15 +5,23 @@
   }
 
 .container {
-    background-color: lightgray;
-    position: absolute;
-    height: 300vh;
-}
-.block {
     width: 100vw;
     height: 100vh;
+    background-color: lightgray;
+}
+.column {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+}
+.block {
+    width: 40vw;
+    height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 .city1 {
     background-image: url("https://cdn.pixabay.com/photo/2019/03/28/18/46/rome-4087802_1280.jpg");
@@ -30,17 +38,19 @@
     right:0;
     bottom: 0;
     left:0;
-    background-color: rgba(255,255,255, 0.1);
+    background-color: rgba(255,255,255, 0.2);
 
 }
 .text {
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%;-50%);
-    display: inline-block;
+    transform: translate(-50%,-50%);
+
 }
 
 h1 {
     font-size: 50px;
+
+
 }
